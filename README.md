@@ -34,3 +34,19 @@ To run the app, you need to download the GRU model file manually:
 git clone https://github.com/Amaan214/LingualSense.git
 cd LingualSense
 pip install -r requirements.txt
+
+## ▶️ Run the App
+streamlit run app.py
+
+## Project Structure
+LingualSense/
+├── app.py
+├── tokenizer.joblib
+├── label_encoder.joblib
+├── gru.h5               <-- Place downloaded model here
+├── LingualSense.ipynb
+├── README.md
+└── requirements.txt
+
+## 📄 License
+This project is open-source and available under the MIT License.

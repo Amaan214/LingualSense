@@ -5,7 +5,7 @@
 ## 🚀 Features
 
 - Detects the language of the given text using FastText.
-- Predicts sentiment using a pre-trained GRU-based deep learning model.
+- Predicts language using a pre-trained GRU-based deep learning model.
 - Supports input via text box or file upload.
 - Optionally download results as CSV.
 - Interactive UI built with Streamlit.
